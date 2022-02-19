@@ -1,0 +1,26 @@
+{
+  "name": "ioredis-interface-generator",
+  "version": "1.0.0",
+  "description": "Generate interface for ioredis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioredis/interface-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ioredis/interface-generator/issues"
+  },
+  "homepage": "https://github.com/ioredis/interface-generator#readme",
+  "dependencies": {
+    "inflection": "^1.13.2",
+    "ioredis": "^4.28.5",
+    "lodash.camelcase": "^4.3.0",
+    "prettier": "^2.5.1"
+  }
+}
