@@ -22,7 +22,7 @@
   "homepage": "https://github.com/ioredis/interface-generator#readme",
   "dependencies": {
     "inflection": "^1.13.2",
-    "ioredis": "^4.28.5",
+    "ioredis": "^5.0.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.flatmap": "^4.5.0"
   }
