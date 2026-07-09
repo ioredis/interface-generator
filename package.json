@@ -1,6 +1,6 @@
 {
   "name": "@ioredis/interface-generator",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Generate interface for ioredis",
   "publishConfig": {
     "access": "public"
