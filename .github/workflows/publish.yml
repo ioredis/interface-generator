@@ -47,7 +47,8 @@ jobs:
           git config user.email "ioredis-robot@redis.com"
 
       - name: Bump package version
-        run: npm version "${{ inputs.release_type }}" -m "chore(release): %s"
+        run: |
+          npm version "${{ inputs.release_type }}" -m "chore(release): %s"
 
       - name: Verify release push
         run: git push --dry-run origin HEAD:${{ github.ref_name }} --follow-tags
